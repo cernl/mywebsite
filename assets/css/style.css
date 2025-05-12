@@ -1,0 +1,160 @@
+
+/* === GLOBAL FONT === */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f5f2ea;
+  margin: 0;
+  padding: 0;
+  color: #111;
+}
+
+/* === LINKS === */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+header, nav {
+  font-family: inherit;
+  background: #fff;
+  padding: 1em 2em;
+  border-bottom: 1px solid #ddd;
+}
+
+nav a {
+  margin-right: 1em;
+}
+
+
+.catalog-page {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2em;
+  gap: 3em;
+}
+
+
+.catalog-sidebar {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.catalog-sidebar h3 {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  color: #222;
+}
+
+.catalog-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.catalog-sidebar li {
+  margin-bottom: 0.6em;
+}
+
+.category-btn {
+  all: unset;
+  font-family: inherit;
+  font-size: 1em;
+  color: #111;
+  cursor: pointer;
+  display: block;
+  padding: 0.3em 0;
+}
+
+.category-btn:hover {
+  color: #6b4d37;
+  font-weight: 600;
+}
+
+
+.catalog-grid {
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 2em;
+}
+
+
+.product-card {
+  text-align: center;
+  background-color: #fff;
+  padding: 1em;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  transition: box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.brand-name {
+  font-size: 0.75em;
+  color: #888;
+  margin-top: 0.6em;
+}
+
+.product-name {
+  font-size: 0.95em;
+  margin: 0.3em 0;
+  font-weight: 500;
+}
+
+.product-price {
+  font-size: 0.9em;
+  color: #333;
+}
+
+/* === BUTTONS (GLOBAL) === */
+button, .btn-brown {
+  font-family: inherit;
+  background-color: #6b4d37;
+  color: #fff;
+  border: none;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  font-size: 1em;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-brown:hover {
+  background-color: #543b29;
+}
+
+.auth-form {
+  max-width: 400px;
+  margin: 5em auto;
+  padding: 2em;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+}
+.auth-form input {
+  width: 100%;
+  padding: 0.6em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.auth-form h2 {
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+.auth-form p {
+  font-size: 0.9em;
+  margin-top: 1em;
+}

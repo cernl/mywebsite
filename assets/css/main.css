@@ -1,0 +1,46 @@
+
+/* Layout and Sidebar */
+.catalog-page {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #f5f2ea;
+  padding: 2em;
+  gap: 2em;
+}
+
+.catalog-sidebar {
+  width: 200px;
+  margin-right: 2em;
+}
+
+.catalog-sidebar h3 {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  color: #222;
+}
+
+.catalog-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.catalog-sidebar li {
+  margin-bottom: 0.6em;
+}
+
+.category-btn {
+  all: unset;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #111;
+  cursor: pointer;
+  display: block;
+  padding: 0.3em 0;
+}
+
+.category-btn:hover {
+  color: #6b4d37;
+  font-weight: 600;
+}
